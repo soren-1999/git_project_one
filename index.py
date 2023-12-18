@@ -28,3 +28,6 @@ acc.deposit(500)
 acc.withdraw(200)
 acc.display_balance()
 print(Account)
+
+s=23
+print(s)
