@@ -23,7 +23,7 @@ class Account:
     def __str__(self):
         return f"Balance: {self.balance:.2f} : {self.number}"
 
-acc = Account(1000,12345)
+acc = Account(1000,12345,1300)
 acc.deposit(500)
 acc.withdraw(200)
 acc.display_balance()
